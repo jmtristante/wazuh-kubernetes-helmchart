@@ -2,4 +2,4 @@
 . ./data.sh
 echo $HELM_RELEASE_NAME
 
-helm delete $HELM_RELEASE_NAME --purge --debug
+helm delete $HELM_RELEASE_NAME --debug
