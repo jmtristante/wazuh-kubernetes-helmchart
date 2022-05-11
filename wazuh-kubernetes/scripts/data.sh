@@ -2,7 +2,7 @@
 export CLUSTER_ID="minikube"
 
 export SPACE_NAME="wazuh"
-# export SPACE_ID=""
+export SPACE_ID="wazuh-space" #NO ME DEJABA TENERLO VACÍO
 # export KUBE_NAMESPACE="${SPACE_NAME}-${SPACE_ID}"
 export KUBE_NAMESPACE="${SPACE_NAME}"
 
